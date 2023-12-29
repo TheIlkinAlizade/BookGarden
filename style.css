@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(76, 17, 17);    
+}
+
+#nav-bar-item{
+    display: inline;
+    position: relative;
+    padding: 8px;
+}
+#nav-bar-item a{
+    display: inline;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#nav-bar-item:hover{
+    border: 1px solid white;
+}
+.nav-bar ul{
+    overflow: hidden;
+}
+.nav-bar{
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.756);
+}
+
+.header{
+    background-image: url("R.jpeg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px;
+}
+#welcome{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+}
+#title{
+    color: wheat;
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    font-size: 120px;
+}
+#text{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
